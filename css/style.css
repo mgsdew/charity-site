@@ -1,0 +1,156 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;;
+}
+h3 {
+    font-size: 25px;
+}
+
+.orange-color {
+    color: orange;
+}
+
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 5%;
+
+}
+.flexible-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+.top-banner {
+    color: white;
+    top: 0;
+    height: 100vh;
+    background-image: url(../files/images/donation_cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#top-div {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .donate-today{
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+}
+.donation-amount{
+    width: 20%;
+    height: 20%;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 40px 0;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+.selected{
+ border: 2px solid #FF5959 !important;
+ background-color: #FFEEEE !important;
+}
+
+.form-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    margin-left: 380px;
+    border-radius: 5%;
+}
+
+#donation-amount{
+    display: block;
+    width: 100%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    }
+
+input::placeholder{
+    text-align: center;
+    text-decoration: solid gainsboro;
+    }
+
+.donation-plan-item{
+    margin-left: 20px;
+    margin-right: 0px;
+    padding: 40px 0 40px 20px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+    align-items: flex-start;
+    text-align: left;
+}  
+
+.half-width {
+    width: 80%;
+    padding-left: 5%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.give-update{
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+}
+
+.email{
+    height: 100px;
+    background-color: #FFF4D6;
+}
+
+#email{
+    display: block;
+    width: 50%;
+    height: 35%;
+    margin-left: 110px;
+    margin-top: 25px;
+    }
+
+    .link-Subscribe{
+        text-decoration: none;
+        margin: 23px 0px 33px 0px;
+        background-color: #FF5959;
+        color: white;
+        font-weight: 700;
+        padding: 10px 40px;
+        border-radius: 5%;
+    }
+
+footer{
+    background-color: #0B0D17;
+    height: 125px;
+}
+footer h3{
+    padding-top: 20px !important;
+    text-align: center;
+    font-family: cursive;
+    color: #FF5959;
+}
+footer p{
+    text-align: center;
+    color: #D9DBE1;
+}
